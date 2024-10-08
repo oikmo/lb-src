@@ -1,0 +1,29 @@
+-- hi
+
+<div id="ErrorAlert" class="ErrorAlert" style="
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(100, 100, 100, 0.25);
+    display: block;
+">
+        <div class="ErrorWindow" style="
+    background-color: #fff;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    position: relative;
+    top: 30%;
+    bottom: 30%;
+    border: 1px solid black;
+    padding: 10px;
+">
+            <p class="ErrorWindow-Title">game starting wait bitch</p>
+            <p id="ErrorMessage" class="ErrorWindow-context">Like I ain't got a good pc</p>
+            <button>Ok fine whatever</button>
+        </div>
+    </div>
